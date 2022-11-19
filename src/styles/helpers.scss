@@ -1,0 +1,11 @@
+@mixin flx-col {
+  display: flex;
+  flex-direction: column;
+}
+$pink-orange: linear-gradient(to right, hsl(330, 100%, 50%), hsl(8, 100%, 66%));
+
+@mixin text-col-clip {
+  background: $pink-orange;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
